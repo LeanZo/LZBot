@@ -1,0 +1,25 @@
+{
+  "name": "LZBot",
+  "version": "1.0.0",
+  "description": "LeanZo's Discord Bot",
+  "main": "index.js",
+  "repository": "https://github.com/LeanZo/LZBot",
+  "author": "Lucas Lean",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "axios": "^0.26.1",
+    "discord-api-types": "^0.31.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "he": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  }
+}
