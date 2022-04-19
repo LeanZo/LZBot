@@ -7,7 +7,7 @@ const fs = require('node:fs');
 const { Client, Collection, Intents } = require('discord.js');
 
 // Create a new client instance
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.DIRECT_MESSAGES], partials: ['CHANNEL'] });
 
 // Adiciona comandos da /commands para a collections de comandos
 client.commands = new Collection();
@@ -32,6 +32,11 @@ for (const file of eventFiles) {
         client.on(event.name, (...args) => event.execute(...args));
     }
 }
+
+// client.on('messageCreate', message =>{
+//     message.author.
+//     console.log('Message registered!');
+// });
 
 // Login to Discord with your client's token
 client.login(process.env.DISCORD_TOKEN);
