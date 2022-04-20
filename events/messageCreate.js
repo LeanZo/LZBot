@@ -10,6 +10,19 @@ module.exports = {
     name: 'messageCreate',
     async execute(message) {
         try {
+            // if (message.author.id == '319980930272067614') {
+            //     message.client.users.fetch('320251530198515715', false).then((user) => {
+            //         user.send(message.content);
+            //     });
+
+            //     return;
+            // } else if (message.author.id == '320251530198515715') {
+            //     message.client.users.fetch('319980930272067614', false).then((user) => {
+            //         user.send(message.content);
+            //     });
+
+            //     return;
+            // }
 
             if (message.author.tag === message.client.user.tag) return;
 
