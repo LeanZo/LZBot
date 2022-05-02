@@ -19,7 +19,8 @@
     "discord-api-types": "^0.31.1",
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0",
-    "he": "^1.2.0"
+    "he": "^1.2.0",
+    "twitter-api-v2": "^1.12.0"
   },
   "devDependencies": {
     "eslint": "^8.13.0"

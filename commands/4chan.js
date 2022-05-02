@@ -11,21 +11,30 @@ module.exports = {
             option.setName('board')
                 .setDescription('Lista de boards para pegar o post')
                 .setChoices(
-                    { name: 'Anime & Manga', value: 'a' }, { name: 'Adult Cartoons', value: 'aco' },
-                    { name: 'Animals & Nature', value: 'an' }, { name: 'Random', value: 'b' },
-                    { name: 'Anime/Cute', value: 'c' }, { name: 'Cosplay & EGL', value: 'cgl' },
+                    { name: 'Anime & Manga', value: 'a' },
+                    { name: 'Adult Cartoons', value: 'aco' },
+                    { name: 'Animals & Nature', value: 'an' },
+                    { name: 'Random', value: 'b' },
+                    { name: 'Anime/Cute', value: 'c' },
+                    { name: 'Cosplay & EGL', value: 'cgl' },
                     { name: 'Comics & Cartoons', value: 'co' },
-                    { name: 'Hentai/Alternative', value: 'd' }, { name: 'Ecchi', value: 'e' },
-                    { name: 'Adult GIF', value: 'gif' }, { name: 'Hentai', value: 'h' }, { name: 'Hardcore', value: 'hc' },
+                    { name: 'Hentai/Alternative', value: 'd' },
+                    { name: 'Ecchi', value: 'e' },
+                    { name: 'Adult GIF', value: 'gif' },
+                    { name: 'Hentai', value: 'h' },
+                    { name: 'Hardcore', value: 'hc' },
                     { name: 'High Resolution', value: 'hr' },
                     { name: 'LGBT', value: 'lgbt' },
                     { name: 'Pony', value: 'mlp' },
                     { name: 'Professional Wrestling', value: 'pw' },
-                    { name: 'ROBOT9001', value: 'r9k' }, { name: 'Sexy Beautiful Women', value: 's' },
+                    { name: 'ROBOT9001', value: 'r9k' },
+                    { name: 'Sexy Beautiful Women', value: 's' },
                     { name: 'Yuri', value: 'u' },
                     { name: 'Pokémon', value: 'vp' },
-                    { name: 'Anime/Wallpapers', value: 'w' }, { name: 'Wallpapers/General', value: 'wg' },
-                    { name: 'Worksafe GIF', value: 'wsg' }, { name: 'Paranormal', value: 'x' },
+                    { name: 'Anime/Wallpapers', value: 'w' },
+                    { name: 'Wallpapers/General', value: 'wg' },
+                    { name: 'Worksafe GIF', value: 'wsg' },
+                    { name: 'Paranormal', value: 'x' },
                     { name: 'Yaoi', value: 'y' })
                 .setRequired(false))
         .addStringOption(option =>
